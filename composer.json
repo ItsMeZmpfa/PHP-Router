@@ -1,0 +1,44 @@
+{
+    "name": "zmpfa/php-router",
+    "description": "Simple, fast PHP router that is easy to get integrated and in almost any project.",
+    "keywords": [
+        "router",
+        "router",
+        "routing",
+        "route",
+        "zmpfa-router",
+        "zmpfa",
+        "php",
+        "framework",
+        "url-handling",
+        "input-handler",
+        "routing-engine",
+        "request-handler"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ItsMeZmpfa",
+            "email": "joria220@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1",
+        "phpstan/phpstan": "^1.12",
+        "phpunit/phpunit": "11"
+    },
+    "scripts": {
+        "Test": [
+            "phpunit tests"
+        ]
+    }
+}
